@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Georama" !important;
+  font-weight: normal;
+}
+
+::-webkit-scrollbar{
+  appearance: none;
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb{
+  appearance: none;
+  border-radius: 10px;
+  background: #4a4a4a;
+}
+
+:root {
+  --primary-color: darkorange;
+}
+
+body{
+  background: #222 !important;
+  color: #fff !important;
+}
+
+.anton,
+.anton * {
+  font-family: "Anton" !important;
+}
+
+.btn-primary {
+  background:#000 !important;
+  color: #fff;
+}
+
+button{
+  font-size: 14px !important;
+}
+
+.disabled-btn{
+  background: none !important;
+  opacity: .7;
+}
+
+
+.authLayout input::placeholder{
+  color:#ccc !important
+}
+
+@media screen and (max-width:400px) {
+  .authLayout .step-divider{
+    width: 70vw !important;
+  }
+}
